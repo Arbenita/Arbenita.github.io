@@ -105,7 +105,7 @@ textarea {
 }
 
 body {
-    background:#000;
+    background:#080706;
     box-sizing: border-box;
     -webkit-animation: bugfix infinite 1s;
     margin:0;
@@ -220,12 +220,11 @@ label.menuTitle {
   
 
     .mainMenu a, .mainMenu a:visited {
-        color: #333;
         text-decoration: none;
         width: 94%;
         padding: 5px 3%;
         background: none;
-        color:#fff;
+        color:#efefef;
     }
 
 label.menuTitle {
@@ -234,17 +233,16 @@ label.menuTitle {
     padding: 20px 3%;
     font-weight: bold;
 }
-@media screenand (min-width:1280){
-}
-@media screen and (min-width:768px){
 
+@media screen and (min-width:768px){
+  
     .mainMenu li {
         border: 0;
         
     }
       
     .mainMenu a:hover {
-        color: #f0810f;
+        color: #af1c1c;
         -webkit-transition: all .1s ease;
         transition: all 0.4s ease;
     }
@@ -255,7 +253,7 @@ label.menuTitle {
     }
 }
 
-@media screen and (max-width:768px)  {
+@media screen and (max-width:767px)  {
     .mainMenu > ul {
         width: 100%;
         margin-top:15px;
@@ -273,7 +271,7 @@ label.menuTitle {
     }
 }
 .menu > li.current > a{
-    color: #f0810f;
+    color: #af1c1c;
 }
 
 /*SUBMENU form GALLERYS*/
@@ -311,13 +309,12 @@ label.menuTitle {
     text-decoration: none;
     font-size: 1em;
     text-align: center;
-    color: rgb(0,0,0);
     text-transform: uppercase;
     text-align:justify;
-     color:#fff;
+     color:#efefef;
 }
 .subMenu a:hover {
-        color: #f0810f;
+        color: #af1c1c;
         -webkit-transition: all .1s ease;
         transition: all 0.4s ease;
     }
@@ -329,13 +326,12 @@ label.menuTitle {
     margin: 20px auto;
     margin-left:10px;
     padding: 0;
-
-    
+ 
 }
        
 }
 .submenu > li.current > a{
-    color: #f0810f;
+    color: #af1c1c;
 }
 
 /*CONTACTS*/
@@ -351,18 +347,17 @@ label.menuTitle {
         padding: 0.1em;
         text-align: left;
         text-transform: none;
-        color: rgb(0,0,0);
         text-decoration: none;
-         color:#fff;
+         color:#efefef;
     }
 
     .contacts a:hover, a:active {
-        color: #f0810f;
+        color: #af1c1c;
         -webkit-transition: all .1s ease;
         transition: all 0.4s ease;
     }
-
-@media screen and (max-width:768px) {
+ 
+@media screen and (max-width:767px) {
     .contacts {
         padding-top:2%;
         font-size: 0.9em;
@@ -381,7 +376,7 @@ label.menuTitle {
     font-family: Century, serif;
     font-weight: lighter;
     line-height: 150%;
-    color:#fff;
+    color:#efefef;
 }
 
     .hello span {
@@ -390,7 +385,7 @@ label.menuTitle {
         font-style: italic;
     }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .hello {
         font-size: 1.4em;
     }
@@ -405,7 +400,7 @@ label.menuTitle {
 main {
     float: left;
     width: 100%;
-    background-color: #000;
+    background-color: #080706;
 }
 
 .grid {
@@ -441,7 +436,7 @@ main {
 
         .grid figure figcaption {
             padding: 2em;
-            color: #fff;
+            color: #efefef;
             text-transform: uppercase;
             font-size: 1.25em;
             -webkit-backface-visibility: hidden;
@@ -714,7 +709,7 @@ figure.effect:hover p {
 .aboutInfo p::first-letter{
     font-size:3em;
     text-transform:uppercase;
-    color:#F0810F;
+    color:#af1c1c;
 }
 @media screen and (max-width:768px) {
     .aboutInfo{
@@ -737,11 +732,11 @@ footer {
 .yearCurrent {
     margin-left: 2%;
     margin-bottom: 1%;
-    color:rgb(255,255,255);
+    color:#efefef;
 }
 
 .social-icons a {
-    color: #fff;
+    color: #efefef;
     width: 34px;
     height: 34px;
     border: 1px solid #000;
@@ -758,7 +753,7 @@ footer {
     }
 
    .social-icons a:hover {
-       color: #f0810f;
+       color: #af1c1c;
         -webkit-transition: all .1s ease;
         transition: all 0.4s ease;
     }
