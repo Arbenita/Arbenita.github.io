@@ -945,3 +945,30 @@ footer {
 .menu .current{
     color: #f0810f;
 }
+iframe{
+    margin-top:1%;
+}
+@media screen and (max-width:768px) {
+    iframe{
+        width:740px;
+        height:360px;  
+    }
+
+}
+@media screen and (max-width:640px) {
+    iframe {
+        width: 500px;
+        height: 360px;
+    }
+}
+@media screen and (max-width:480px) {
+    iframe {
+        width: 450px;
+        height: 360px;
+    }
+}
+@media screen and (max-width:320px) {
+    iframe {
+        width: 200px;
+    }
+}
