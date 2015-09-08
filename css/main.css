@@ -677,7 +677,7 @@ figure.effect:hover p {
   list-style: none;
   overflow: hidden;
   width: 70%;
-  height:400px;
+  height:450px;
   padding: 0;
   margin: 0 auto;
   margin-top:20px;
@@ -945,8 +945,14 @@ footer {
 .menu .current{
     color: #f0810f;
 }
+
+
+.video{
+  text-align:center;
+}
 iframe{
-    margin-top:1%;
+   margin-bottom:4%;
+    
 }
 @media screen and (max-width:768px) {
     iframe{
