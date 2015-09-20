@@ -111,11 +111,16 @@ body {
     margin:0;
 }
 
+
+@font-face {
+    font-family: 'Alcubierre';
+    src: url('../fonts/Alcubierre.otf') format('opentype');
+}
 .container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Alcubierre', 'Century Gothic', sans-serif;
     color: rgb(0,0,0);
 }
 /*HEADER*/
@@ -123,6 +128,7 @@ body {
 header {
     width: 100%;
     height: 260px;
+    margin-bottom:8%;
 }
 
 /*NAV*/
@@ -186,12 +192,12 @@ label.menuTitle {
     margin: 0;
     display: block;
     cursor: pointer;
-    background: url('../img/menuHair.png');
+    background: url('../img/menu.png');
     /*background-image: url('../img/menu.svg'), none;*/
     background-repeat: no-repeat;
     background-position: 97% 10px;
     /*background-size: 24px 19px;*/
-    background-size: 32px 32px;
+    background-size: 24px 24px;
 }
 
 @media screen and (min-width:768px) {
@@ -287,7 +293,7 @@ label.menuTitle {
 .subMenu {
     display: inline-block;
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto 60px;
     text-align:center;
 }
 
@@ -312,14 +318,16 @@ label.menuTitle {
     display: inline;
     width: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     text-transform: uppercase;
     text-align:justify;
      color:#efefef;
 }
+  
+
 .subMenu a:hover {
         color: rgb(152, 80, 81);
         -webkit-transition: all .1s ease;
@@ -335,11 +343,15 @@ label.menuTitle {
     padding: 0;
  
 }
-       
+    .submenu > li > a{
+    font-size:1em;
+}
+ 
 }
 .submenu > li.current > a{
     color: rgb(152, 80, 81);
 }
+
 
 /*CONTACTS*/
 
@@ -378,11 +390,15 @@ label.menuTitle {
 
 /*HELLO*/
 
+@font-face {
+    font-family: 'Athene';
+    src: url('../fonts/Athene.otf') format('opentype');
+}
 .hello {
-    padding-top: 10%;
+    padding-top: 15%;
     text-align: center;
-    font-size: 2em;
-    font-family: Century, serif;
+    font-size: 2.5em;
+    font-family: 'Alcubierre', Century, serif;
     font-weight: lighter;
     line-height: 150%;
     color:#efefef;
@@ -390,8 +406,9 @@ label.menuTitle {
 
     .hello span {
         font-size: 1.6em;
-        font-family: 'Segoe Script', serif;
-        font-style: italic;
+        font-family:  'Athene', 'Segoe Script', serif;
+        /*font-style: italic;*/
+        color: rgb(152, 80, 81);
     }
 
 @media screen and (max-width:767px) {
@@ -475,10 +492,15 @@ main {
                     font-size: 0;
                     opacity: 0;
                 }
-
+    @font-face {
+    font-family: 'Athene';
+    src: url('../fonts/Athene.otf') format('opentype');
+}
         .grid figure h2 {
             word-spacing: -0.15em;
             font-weight: 300;
+            font-family: 'Athene';
+           
         }
 
             .grid figure h2 span {
@@ -669,7 +691,7 @@ figure.effect:hover p {
    about.html/ABOUT PAGE/CAUROSEL
    ========================================================================== */
 .aboutHeader{
-    height:100px;
+    height:40px;
     margin-top:10px;
 }
 .rslides {
