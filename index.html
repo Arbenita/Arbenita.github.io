@@ -13,12 +13,27 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/main.css" />
     <link href="css/font-awesome.css" rel="stylesheet" />
+    <!--<link href="css/component.css" rel="stylesheet" />-->
+    
 </head>
 <body>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="container">
+        <!--<div class="cbp-af-header">
+            <div class="cbp-af-inner">
+                <h1>Fixed</h1>
+                <nav>
+                    <a href="#">Broccoli</a>
+                    <a href="#">Almonds</a>
+                    <a href="#">Pears</a>
+                    <a href="#">Oranges</a>
+                </nav>
+            </div>
+        </div>-->
+        
+
         <header class="portfolioHeader">
             <nav class="mainMenu">
                 <section class="contacts">
@@ -28,23 +43,14 @@
                 <label for="toggleMenu" class="menuTitle"></label>
                 <input type="checkbox" id="toggleMenu" />
                 <ul class="menu">
-                    <li><a href="about.html">About</a></li>
-                    <li class="current"><a href="index.html">Portfolio</a></li>
+                    <li><a href="about.html">О себе</a></li>
+                    <li class="current"><a href="index.html">Портфолио</a></li>
                 </ul>
             </nav>
-            <h1 class="hello">Hello, my name <span> Kolomiets Mary</span><br /> Makeup artist & hair stylist</h1>
+            <h1 class="hello">Привет, меня зовут <br /><span> Kolomiets Mary</span><br />Художник по гриму, визажист, парикмахер</h1>
         </header>
         <main role="main">
             <div class="grid">
-                <figure class="effect">
-                    <img src="img/hair.jpg" alt="img" />
-                    <figcaption>
-                        <div>
-                            <h2><span>Hair-style</span></h2>
-                        </div>
-                        <a href="hair.html">View more</a>
-                    </figcaption>
-                </figure>
                 <figure class="effect">
                     <img src="img/mua.jpg" alt="img" />
                     <figcaption>
@@ -55,12 +61,12 @@
                     </figcaption>
                 </figure>
                 <figure class="effect">
-                    <img src="img/sfx.jpg" alt="img" />
+                    <img src="img/hair.jpg" alt="img" />
                     <figcaption>
                         <div>
-                            <h2><span>SFX</span></h2>
+                            <h2><span>Hair-style</span></h2>
                         </div>
-                        <a href="sfx.html">View more</a>
+                        <a href="hair.html">View more</a>
                     </figcaption>
                 </figure>
                 <figure class="effect">
@@ -73,15 +79,6 @@
                     </figcaption>
                 </figure>
                 <figure class="effect">
-                    <img src="img/photografs.jpg" alt="img" />
-                    <figcaption>
-                        <div>
-                            <h2><span>Movie & TV-projects</span></h2>
-                        </div>
-                        <a href="movie.html">View more</a>
-                    </figcaption>
-                </figure>
-                <figure class="effect bride">
                     <img src="img/bride.jpg" alt="img" />
                     <figcaption>
                         <div>
@@ -90,6 +87,26 @@
                         <a href="bride.html">View more</a>
                     </figcaption>
                 </figure>
+                <figure class="effect">
+                    <img src="img/sfx.jpg" alt="img" />
+                    <figcaption>
+                        <div>
+                            <h2><span>SFX</span></h2>
+                        </div>
+                        <a href="sfx.html">View more</a>
+                    </figcaption>
+                </figure>
+                
+                <figure class="effect">
+                    <img src="img/photografs.jpg" alt="img" />
+                    <figcaption>
+                        <div>
+                            <h2><span>Movie & TV-projects</span></h2>
+                        </div>
+                        <a href="movie.html">View more</a>
+                    </figcaption>
+                </figure>
+
                 <figure class="effect video">
                     <img src="img/video.jpg" alt="img" />
                     <figcaption>
@@ -118,7 +135,9 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
     <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
     <script src="../js/plugins.js"></script>
-    
+
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
      <!--Fade in-->
     <script>
         $(document).ready(function () {

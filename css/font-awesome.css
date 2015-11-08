@@ -12,9 +12,15 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'bickhamscr2';
+    src: url('../fonts/bickhamscr2.ttf') format('truetype');
+}
 
-
-
+@font-face {
+    font-family: 'UkrainianDecor';
+    src: url('../fonts/UkrainianDecor.TTF') format('truetype');
+}
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
