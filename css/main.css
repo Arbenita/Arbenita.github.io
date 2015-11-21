@@ -112,18 +112,15 @@ body {
 }
 
 
-
 @font-face {
-    font-family: 'Athene';
-    src: url('../fonts/Athene.otf') format('opentype');
+    font-family: 'Alcubierre';
+    src: url('../fonts/Alcubierre.otf') format('opentype');
 }
-
 .container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Segoe Script', serif;
-  
+    font-family: 'Alcubierre', 'Century Gothic', sans-serif;
     color: rgb(0,0,0);
 }
 /*HEADER*/
@@ -196,8 +193,10 @@ label.menuTitle {
     display: block;
     cursor: pointer;
     background: url('../img/menu.png');
+    /*background-image: url('../img/menu.svg'), none;*/
     background-repeat: no-repeat;
     background-position: 97% 10px;
+    /*background-size: 24px 19px;*/
     background-size: 24px 24px;
 }
 
@@ -388,25 +387,25 @@ label.menuTitle {
 
 /*HELLO*/
 
+@font-face {
+    font-family: 'Athene';
+    src: url('../fonts/Athene.otf') format('opentype');
+}
 .hello {
-    padding-top: 10%;
+    padding-top: 15%;
     text-align: center;
-     /*font-family:  'Athene', 'Segoe Script', serif;*/
-    font-size: 2em;
+    font-size: 2.5em;
+    font-family: 'Alcubierre', Century, serif;
     font-weight: lighter;
     line-height: 150%;
     color:#efefef;
-
 }
 
     .hello span {
-        display:inline-block;
-        padding-top:20px;
-        padding-bottom:20px;
         font-size: 1.6em;
         font-family:  'Athene', 'Segoe Script', serif;
+        /*font-style: italic;*/
         color: rgb(152, 80, 81);
-        font-weight:500;
     }
 
 @media screen and (max-width:767px) {
@@ -424,7 +423,6 @@ label.menuTitle {
 main {
     float: left;
     width: 100%;
-    margin-top:5%;
     background-color: #080706;
 }
 
@@ -432,87 +430,34 @@ main {
     position: relative;
     margin: 0 auto;
     padding: 1em 0 4em;
-    max-width: 800px;
+    max-width: 1000px;
     list-style: none;
     text-align: center;
-   
 }
 
-    .grid .mua {
-        outline: 1px solid white;
-        float: left;
-        width: 66%;
-        
-    }
-  
-.grid .hair{
-    outline:1px solid white;
-    float:right;
-    width:32%;
-   
-}
-
-
-.grid .fashion{
-    outline:1px solid white;
-    float:left;
-  clear:both;
-    margin-top:2%;
-    margin-right:2%;
-    width:32%;
-        
-}
-.grid .bride{
-    outline:1px solid white;
-    float:left;
-    margin-top:2%;
-    margin-right:2%;
-    width:32%;
-        
-}
-.grid .sfx{
-    outline:1px solid white;
-    float:left;
-    margin-top:2%;
-    width:32%;
-
-}
-.grid .movie{
-    outline:1px solid white;
-    float:left;
-    margin-top:2%;
-    width:66%;
- 
-}
-.grid .video{
-    outline:1px solid white;
-    float:right;
-    margin-top:2%;
-    width:32%;
-         
-}
-
- .grid img {
+    .grid figure {
         position: relative;
-        display: block;
-        max-width: 100%;
-        min-height: 100%;
-        /*margin: 0;
-        padding: 0;*/
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 320px;
+        max-width: 480px;
+        max-height: 360px;
+        width: 48%;
+        background: #3085a3;
+        text-align: center;
+        cursor: pointer;
     }
-    
-      
 
-    /*.grid figure img {
+        .grid figure img {
             position: relative;
             display: block;
             min-height: 100%;
             max-width: 100%;
-            max-height: 100%;
             opacity: 0.8;
-        }*/
+        }
 
-        /*.grid figure figcaption {
+        .grid figure figcaption {
             padding: 2em;
             color: #efefef;
             text-transform: uppercase;
@@ -535,7 +480,8 @@ main {
                 height: 100%;
             }
 
-             
+                /* Anchor will cover the whole item by default */
+                /* For some effects it will show as a button */
                 .grid figure figcaption > a {
                     z-index: 1000;
                     text-indent: 200%;
@@ -633,50 +579,7 @@ figure.effect:hover p {
     transition-delay: 0.05s;
     -webkit-transition-duration: 0.35s;
     transition-duration: 0.35s;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 /*Portfolio Gallery*/
 
