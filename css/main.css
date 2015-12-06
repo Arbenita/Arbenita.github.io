@@ -424,7 +424,7 @@ label.menuTitle {
 main {
     float: left;
     width: 100%;
-    margin-top:5%;
+    margin-top:1%;
     background-color: #080706;
 }
 
@@ -432,7 +432,7 @@ main {
     position: relative;
     margin: 0 auto;
     padding: 1em 0 4em;
-    max-width: 800px;
+    max-width:800px;
     list-style: none;
     text-align: center;
    
@@ -442,7 +442,6 @@ main {
         /*outline: 1px solid white;*/
         float: left;
         width: 66%;
-        
     }
   
 .grid .hair{
@@ -496,14 +495,30 @@ main {
         position: relative;
         display: block;
         max-width: 100%;
+         opacity: 0.8;
         /*min-height: 100%;*/
         /*margin: 0;
         padding: 0;*/
     }
-    
-      
 
-    /*.grid figure img {
+
+
+
+.grid figure {
+        position: relative;
+        /*float: left;*/
+        overflow: hidden;
+        margin: 10px 1%;
+      /*min-width: 320px;
+        max-width: 480px;*/
+        max-height: 360px;
+        /*width: 48%;*/
+        background: #3085a3;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        /*.grid figure img {
             position: relative;
             display: block;
             min-height: 100%;
@@ -512,7 +527,7 @@ main {
             opacity: 0.8;
         }*/
 
-        /*.grid figure figcaption {
+        .grid figure figcaption {
             padding: 2em;
             color: #efefef;
             text-transform: uppercase;
@@ -535,7 +550,6 @@ main {
                 height: 100%;
             }
 
-             
                 .grid figure figcaption > a {
                     z-index: 1000;
                     text-indent: 200%;
@@ -633,11 +647,7 @@ figure.effect:hover p {
     transition-delay: 0.05s;
     -webkit-transition-duration: 0.35s;
     transition-duration: 0.35s;
-}*/
-
-
-
-
+}
 
 /*Portfolio Gallery*/
 
@@ -846,12 +856,6 @@ footer {
     display: inline-block;
     margin: 0 4px;
 }
-
-
-
-
-
-
 
 
 
