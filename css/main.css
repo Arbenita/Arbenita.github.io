@@ -109,21 +109,17 @@ body {
     box-sizing: border-box;
     -webkit-animation: bugfix infinite 1s;
     margin:0;
+   
 }
 
-
-
-@font-face {
-    font-family: 'Athene';
-    src: url('../fonts/Athene.otf') format('opentype');
-}
 
 .container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Segoe Script', serif;
-  
+    /*font-family: 'Segoe Script', serif;*/
+
+font-family: 'Poiret One', cursive;
     color: rgb(0,0,0);
 }
 /*HEADER*/
@@ -391,11 +387,11 @@ label.menuTitle {
 .hello {
     padding-top: 10%;
     text-align: center;
-     /*font-family:  'Athene', 'Segoe Script', serif;*/
     font-size: 2em;
     font-weight: lighter;
     line-height: 150%;
     color:#efefef;
+     font-family: 'Bad Script', cursive;
 
 }
 
@@ -404,7 +400,7 @@ label.menuTitle {
         padding-top:20px;
         padding-bottom:20px;
         font-size: 1.6em;
-        font-family:  'Athene', 'Segoe Script', serif;
+        /*font-family:  'Athene', 'Segoe Script', serif;*/
         color: rgb(152, 80, 81);
         font-weight:500;
     }
@@ -563,8 +559,8 @@ main {
 }
         .grid figure h2 {
             word-spacing: -0.15em;
-            font-weight: 300;
-            font-family: 'Athene';
+            font-weight: bold;
+            /*font-family: 'Athene';*/
            
         }
 
